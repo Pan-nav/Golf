@@ -1,0 +1,30 @@
+#MySQL database
+MYSQL:
+  HOST: "localhost"
+  PORT: 3306
+  USERNAME: "root"
+  DATABASE: "waffles"
+  PASSWORD: ""
+
+#The configuration for hole
+Hole:
+  radius: 1.5 #particles near block
+
+Golf-Clubs:
+  StoneClub:
+    item: STONE_HOE
+    strength: 1.0
+  IronClub:
+    item: IRON_HOE
+    strength: 3.0
+  DiamondClub:
+    item: DIAMOND_HOE
+    strength: 5.0
+
+
+Messages:
+  #{score} corresponds to the score the player has now
+  FirstScore: 'Well done! Your score is now 1' #sent the first time player lands the ball in the hole
+  UpdateScore: 'Your score is now {score}' #sent everytime after the first
+
+  ScoreDeny: "The player has no score" #sent when the score of requested player doesn't exist

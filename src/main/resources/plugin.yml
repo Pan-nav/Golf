@@ -1,0 +1,13 @@
+name: Golf
+version: '${version}'
+main: gg.panav.golf.Golf
+api-version: 1.19
+commands:
+  sethole:
+    description: Set the hole for ball to go into
+  spawnball:
+    description: Spawns the golf ball
+  clubs:
+    description: Get golf clubs
+  score:
+
